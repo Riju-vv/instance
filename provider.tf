@@ -1,4 +1,4 @@
 provider "aws" {
-region = "eu-west-2"
-profile = "student.09"
+region = var.region
+profile = var.profile
 }
