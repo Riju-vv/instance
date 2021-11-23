@@ -9,3 +9,10 @@ default = "student.09"
 variable instance_count {
 default = "3"
 }
+
+variable "webserver_prefix" {
+default = "student.09-webserver-vm"
+}
+variable "loadbalancer_prefix" {
+default = "student.09-loadbalancer-vm"
+}
