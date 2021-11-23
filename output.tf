@@ -1,4 +1,3 @@
-output "my_vmip" {
-value = aws_instance.my_vm.public_ip
+output "my_vm_public_ip" {
+value = module.webserver.public_ip
 }
-
