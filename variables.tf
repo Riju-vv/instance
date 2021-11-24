@@ -20,3 +20,7 @@ default = "student.09-loadbalancer-vm"
 variable "web_docker_host_prefix" {
 default = "student.09-web_docker_host"
 }
+
+variable "lb_docker_host_prefix" {
+default = "student.09-lb_docker_host"
+}
